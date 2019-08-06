@@ -51,6 +51,10 @@ public class JWTFilter extends BasicHttpAuthenticationFilter {
         return StringUtils.isBlank(token) ? null : new JWTToken(token);
     }
 
+    
+    
+    
+    
     @Override
     protected boolean isAccessAllowed(ServletRequest request, ServletResponse response, Object mappedValue) {
         request.setAttribute(APICons.API_BEGIN_TIME, System.currentTimeMillis());
