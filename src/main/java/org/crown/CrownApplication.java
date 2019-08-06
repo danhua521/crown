@@ -28,5 +28,6 @@ public class CrownApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CrownApplication.class, args);
+        
     }
 }
