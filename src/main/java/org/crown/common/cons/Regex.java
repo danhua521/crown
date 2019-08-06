@@ -62,4 +62,7 @@ public interface Regex {
      * 正则表达式：验证图片格式
      */
     String IMAGE = "(?i)(jpg|jpeg|png|gif)$";
+    
+    
+    
 }
