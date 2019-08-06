@@ -49,4 +49,9 @@ public interface IMenuResourceService extends BaseService<MenuResource> {
      */
     List<MenuResource> getMenuResources(Integer menuId, List<String> resourceIds);
 
+    
+    
+    
+    
+    
 }
