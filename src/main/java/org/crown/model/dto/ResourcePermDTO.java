@@ -47,8 +47,4 @@ public class ResourcePermDTO extends Convert {
     @ApiModelProperty(notes = "路径映射")
     private String mapping;
 
-    
-    
-    
-    
 }
