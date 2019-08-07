@@ -44,4 +44,8 @@ public class ComboDTO extends BaseModel {
     @ApiModelProperty(notes = "名称")
     private String name;
 
+    
+    
+    
+    
 }
