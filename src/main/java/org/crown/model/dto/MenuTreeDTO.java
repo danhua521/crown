@@ -31,4 +31,8 @@ public class MenuTreeDTO extends TreeNode {
     private String icon;
     @ApiModelProperty(notes = "别名")
     private String alias;
+    
+    
+    
+    
 }
