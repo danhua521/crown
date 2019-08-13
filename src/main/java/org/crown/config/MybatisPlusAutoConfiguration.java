@@ -46,6 +46,10 @@ public class MybatisPlusAutoConfiguration {
         return new PaginationInterceptor();
     }
 
+    
+    
+    
+    
     /**
      * 乐观锁
      *
